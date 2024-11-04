@@ -1,0 +1,30 @@
+
+        #af-chat-container {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        #af-chat-messages {
+            height: 300px;
+            overflow-y: auto;
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        #af-chat-form {
+            display: flex;
+            gap: 5px;
+        }
+
+        #af-chat-input {
+            flex-grow: 1;
+            padding: 5px;
+        }
+
+        #af-chat-form button {
+            padding: 5px 10px;
+        }
